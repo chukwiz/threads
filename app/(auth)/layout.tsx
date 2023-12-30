@@ -9,7 +9,7 @@ export const metadata = {
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const RootLayout = ({ children }: { children: React.ReactNode }) => {
+const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <ClerkProvider>
       <html lang="en">
